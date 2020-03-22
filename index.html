@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Snake Wasm</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .intro {
+            padding: 12rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="snake"></canvas>
+        <div class="intro">
+            <h2>Control On:</h2>
+            <p>h - left; j - down; k - top; l - left</p>
+            <p>The game will end when your score gets a mark of 50 ten times</p>
+            <h3>Score:</h3>
+            <p id="score"></p>
+        </div>
+    </div>
+    <script src="./bootstrap.js"></script>
+</body>
+
+</html>
